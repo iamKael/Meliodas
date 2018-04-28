@@ -1,22 +1,36 @@
 {
-    "name": "meliodas",
-    "displayName": "Meliodas",
-    "description": "code with elegance",
-    "version": "0.0.1",
-    "publisher": "iamKael",
-    "engines": {
-        "vscode": "^1.22.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Meliodas",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Meliodas-color-theme.json"
-            }
-        ]
-    }
+  "name": "meliodas",
+  "displayName": "Meliodas",
+  "description": "code with elegance",
+  "version": "0.0.1",
+  "publisher": "Kael_",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "license": "MIT",
+  "categories": ["Themes"],
+  "keywords": ["dark", "theme"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Meliodas",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Meliodas-color-theme.json"
+      }
+    ]
+  },
+  "galleryBanner": {
+    "color": "#232931",
+    "theme": "dark"
+  },
+  "icon": "",
+  "bugs": {
+    "url": "https://github.com/iamKael/Meliodas/issues",
+    "email": "michelmbili@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamKael/Meliodas.git"
+  },
+  "homepage": "https://github.com/iamKael/Meliodas/blob/master/README.md"
 }
