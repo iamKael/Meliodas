@@ -1,0 +1,22 @@
+{
+    "name": "meliodas",
+    "displayName": "Meliodas",
+    "description": "code with elegance",
+    "version": "0.0.1",
+    "publisher": "iamKael",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Meliodas",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Meliodas-color-theme.json"
+            }
+        ]
+    }
+}
